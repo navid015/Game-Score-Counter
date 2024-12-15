@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+                <div class="box">
+                    <h3>HOME</h3>
+                    <h2 id="homeP">0</h2>
+                    <div class="increment">
+                        <button onclick="plusOne('home')">+1</button>
+                        <button onclick="plusTwo('home')">+2</button>
+                        <button onclick="plusThree('home')">+3</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>GUEST</h3>
+                    <h2 id="guestP">0</h2>
+                    <div class="increment">
+                        <button onclick="plusOne('guest')">+1</button>
+                        <button onclick="plusTwo('guest')">+2</button>
+                        <button onclick="plusThree('guest')">+3</button>
+                    </div>
+                </div>
+                
+        </div>
+        <button id="rest" onclick="reset()">Reset Score</button>
+        <script src="index.js"></script>
+    </body>
+</html>
